@@ -45,7 +45,7 @@ class ForgotPassword extends StatelessWidget {
                   height: size.height * 0.02,
                 ),
                 Text(
-                  'Enter your email address below or \n login with another account',
+                  'Enter your email address below or \n \t \t \t login with another account',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: size.width * 0.04,
