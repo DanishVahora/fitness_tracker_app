@@ -14,8 +14,8 @@ class _HeightPageState extends State<HeightPage> {
   @override
   Widget build(BuildContext context) {
     List<String> items = [];
-    for (int i = 50; i < 200; i++) {
-      items.add(i.toString()+" cm");
+    for (int i = 1; i < 200; i++) {
+      items.add(i.toString()+"cm");
     }
     var size = MediaQuery.of(context).size;
     return Scaffold(
@@ -43,7 +43,7 @@ class _HeightPageState extends State<HeightPage> {
               child: listwheelScrollView(items: items,),
             ),
             DetailPageButton(text: 'Next', onTap: () {
-              Navigator.pushNamed(context, '/weight');
+              Navigator.pushNamed(context, '/goal');
             }, showBackButton: true,
               onBackTap: (){
                 Navigator.pop(context);
