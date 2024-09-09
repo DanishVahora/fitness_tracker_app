@@ -8,6 +8,7 @@ import 'package:fitness_app_live/screens/genderScreen/genderScreen.dart';
 import 'package:fitness_app_live/screens/goalScreen/goalScreen.dart';
 //HeightScreen
 import 'package:fitness_app_live/screens/heightScreen/heightScreen.dart';
+import 'package:fitness_app_live/screens/weightScreen/weightScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         '/gender': (context) => GenderPage(),
         '/age': (context) => AgePage(),
         '/height': (context) => HeightPage(),
+        '/weight': (context) => WeightPage(),
         '/goal': (context) => GoalPage(),
         '/activityLevel': (context) => ActivityPage(),
 
