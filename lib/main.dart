@@ -1,4 +1,5 @@
 //OnBoarding
+import 'package:fitness_app_live/Login%20And%20SignUp/forgotPassword.dart';
 import 'package:fitness_app_live/screens/OnBoardingScreen/OnBoardingScreen.dart';
 import 'package:fitness_app_live/screens/activityScreen/activityScreen.dart';
 //AgeScreen
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         '/weight': (context) => WeightPage(),
         '/goal': (context) => GoalPage(),
         '/activityLevel': (context) => ActivityPage(),
+        '/forgotPass': (context) => ForgotPassword(),
 
 
       },

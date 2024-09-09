@@ -49,7 +49,7 @@ class _ActivityPageState extends State<ActivityPage> {
             DetailPageButton(
               text: 'Next',
               onTap: () {
-                Navigator.pushNamed(context, '/activityLevel');
+                Navigator.pushNamed(context, '/forgotPass');
               },
               showBackButton: true,
               onBackTap: () {

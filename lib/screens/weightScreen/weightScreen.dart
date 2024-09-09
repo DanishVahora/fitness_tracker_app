@@ -87,7 +87,7 @@ class _WeightPageState extends State<WeightPage> {
               text: 'Next',
               onTap: () {
                 // userProvider.setWeight(weight);
-                Navigator.pushNamed(context, '/height');
+                Navigator.pushNamed(context, '/goal');
               },
               showBackButton: true,
               onBackTap: () {
