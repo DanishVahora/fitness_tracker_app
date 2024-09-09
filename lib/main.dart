@@ -1,5 +1,5 @@
 //OnBoarding
-import 'package:fitness_app_live/Login%20And%20SignUp/forgotPassword.dart';
+import 'package:fitness_app_live/Login%20And%20SignUp/otpVerify.dart';
 import 'package:fitness_app_live/screens/OnBoardingScreen/OnBoardingScreen.dart';
 import 'package:fitness_app_live/screens/activityScreen/activityScreen.dart';
 //AgeScreen
@@ -11,6 +11,8 @@ import 'package:fitness_app_live/screens/goalScreen/goalScreen.dart';
 import 'package:fitness_app_live/screens/heightScreen/heightScreen.dart';
 import 'package:fitness_app_live/screens/weightScreen/weightScreen.dart';
 import 'package:flutter/material.dart';
+
+import 'Login And SignUp/forgotPassword.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,6 +35,7 @@ class MyApp extends StatelessWidget {
         '/goal': (context) => GoalPage(),
         '/activityLevel': (context) => ActivityPage(),
         '/forgotPass': (context) => ForgotPassword(),
+        '/otpVerify': (context) => OtpVerify(),
 
 
       },
