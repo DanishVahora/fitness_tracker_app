@@ -43,7 +43,7 @@ class _HeightPageState extends State<HeightPage> {
               child: listwheelScrollView(items: items,),
             ),
             DetailPageButton(text: 'Next', onTap: () {
-              Navigator.pushNamed(context, '/goal');
+              Navigator.pushNamed(context, '/weight');
             }, showBackButton: true,
               onBackTap: (){
                 Navigator.pop(context);
