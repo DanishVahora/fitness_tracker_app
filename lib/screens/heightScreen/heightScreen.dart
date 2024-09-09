@@ -15,7 +15,7 @@ class _HeightPageState extends State<HeightPage> {
   Widget build(BuildContext context) {
     List<String> items = [];
     for (int i = 1; i < 200; i++) {
-      items.add(i.toString()+"cm");
+      items.add(i.toString()+" cm");
     }
     var size = MediaQuery.of(context).size;
     return Scaffold(
